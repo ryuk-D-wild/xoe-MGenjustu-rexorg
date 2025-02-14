@@ -1,0 +1,26 @@
+{
+    "rules": [
+      {
+        "type": "branch_protection",
+        "pattern": "main",
+        "enforcement": "active",
+        "restrictions": {
+          "users": ["ryuk-D-wild"],
+          "teams": []
+        },
+        "required_pull_request_reviews": {
+          "required_approving_review_count": 1,
+          "require_code_owner_reviews": true
+        },
+        "required_status_checks": {
+          "strict": true,
+          "contexts": ["CI/CD Checks"]
+        },
+        "push_restrictions": {
+          "users": ["ryuk-D-wild"],
+          "teams": []
+        }
+      }
+    ]
+  }
+  
