@@ -1,24 +1,46 @@
-"# xoe-MGenjustu-rexorg" 
+# MGenjustu
 
-to run the genjustu 
-we need to run genjustu , genjustu controls , genjustu server saperetly in 3 different cmds
+## Setup Instructions
 
-step 1 
-open genjustu server in cmd or goto the path of genjustu server in cmd
+### 1. Update Your Environment Variables
+Before running the project, update your `.env` file located in the `genjustu_server` root directory:
 
-   "npm run server"
+```
+CLOUDINARY_NAME = "Your_Cloudinary_Name_Baby"
+CLOUDINARY_API_KEY = "Your_Cloudinary_API_KEY_Baby"
+CLOUDINARY_SECRET_KEY = "Your_Cloudinary_SECRET_KEY_Baby"
+MONGODB_URI = "Your_MongoDB_Atlas_URI_Baby"
+```
 
-step 2 
+## Running the Project
 
-open genjustu in cmd or go to the path of genjustu in cmd
+To run Genjustu, you need to start three separate processes in different command prompts:
 
-   "npm run dev"
-step 3 
- do same as you do in step 2 
-   "npm run dev"
+### Step 1: Start Genjustu Server
+Open a command prompt and navigate to the `genjustu_server` directory, then run:
+```
+npm run server
+```
 
-no need of any npm installtion every this is vertually install allready 
+### Step 2: Start Genjustu
+Open another command prompt, navigate to the `genjustu` directory, and run:
+```
+npm run dev
+```
 
-Internet riquire at time of running 
-             :: the all 2 files are connecte to a apl link, when you use "genjustu controls" to add music and albums it gonna push them to genjustu server which have mongodb and clouadnairy as remote storage 
+### Step 3: Start Genjustu Controls
+Open a third command prompt, navigate to the `genjustu` directory again, and run:
+```
+npm run dev
+```
+
+## Important Notes
+- No need to install dependencies separately; everything is already installed virtually.
+- (optional if require) [nmp install] in all 3 Folders if you deleted the node_modules
+- An internet connection is required while running the project.
+- Genjustu Controls is used to add music and albums. These will be pushed to the Genjustu server, which uses MongoDB and Cloudinary as remote storage.
+
+Enjoy using Genjustu! 🚀
+
+ 
 
