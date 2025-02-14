@@ -1,0 +1,12 @@
+# Ignore cache files
+*.cache
+*.tmp
+
+# Ignore directories
+genjustu_server/node_modules/.cache/
+genjustu-controls/node_modules/.cache/
+genjustu/node_modules/.cache/
+
+genjustu_server/node_modules/tmp/
+genjustu-controls/node_modules/tmp/
+genjustu/node_modules/tmp/tmp/

@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.neon-glow {
+    filter: drop-shadow(0px 0px 5px cyan);
+}
+
+.neon-bar hr {
+    transition: width 0.5s ease;
+}
+
+.neon-bar:hover {
+    box-shadow: 0px 0px 10px cyan;
+}
+
+.shadow-red-glow {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.6), 0 0 20px rgba(255, 0, 0, 0.4);
+}
+
+.shadow-blue-glow {
+    box-shadow: 0 0 15px rgba(0, 100, 255, 0.7), 0 0 30px rgba(0, 100, 255, 0.5);
+}
+
+.accessible-border {
+    border: 2px solid rgba(0, 100, 255, 0.5);
+    border-radius: 10px;
+}
+
+.shadow-red-glow {
+    box-shadow: inset 0 0 10px rgba(255, 0, 0, 0.5);
+}
+
